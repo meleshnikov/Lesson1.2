@@ -8,7 +8,7 @@ public class Main {
         float milkVolume = 200f; //объем молока в мл
         byte bananaQty = 5; //Количество бананов
         byte iceCreamQty = 2; //количество мороженных
-        byte eggsQty = 1; //количество яиц
+        byte eggsQty = 4; //количество яиц
         float breakfastWeight = bananaWeight * bananaQty + milkDensity*milkVolume + iceCreamWeight * iceCreamQty
                 + eggWeight * eggsQty; //общая масса завтрака в г
         short grPerKg = 1000;
